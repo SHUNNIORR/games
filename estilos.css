@@ -1,0 +1,83 @@
+*{
+	margin:0 auto;
+	padding: 0;
+}
+body{
+	background-image: url(img/fond.png);
+
+    background-attachment: fixed;
+
+
+}
+/* Estilos para el login (primera pagina)*/
+		.contenedor{
+			margin-top: 10%;
+		}
+		.contenedor-formulario{
+			background:rgba(199,199,202,.5);  ;
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0 0 30px rgba(0,0,0,0.568);
+		}
+		.login h1, p{
+			color: #6E6ECB;
+		}
+		.ingresar{
+			background-color: #6E6ECB ;
+			border-radius: 10px;
+			margin: 0 auto;
+			color: white;
+		}
+		input[type=submit].btn-block {
+		    color: white;
+		    font-size: 16px;
+		    font-weight: 700;
+		}
+/*-------LOGIN----------------------------------*/
+
+/*------------SLIDER-------------------*/
+.slider{
+	margin-top: 30px;
+	max-width: 95%;
+	max-height: 20%;
+}
+.juegos{
+	color: #6E6ECB;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 10px;
+}
+.infos{
+	margin-bottom: 50px;
+	margin-top: 20px;
+	padding: 30px;
+	background:rgba(199,199,202,.5);
+	border-radius: 10px;
+
+}.infos img{
+
+	max-height: 180px;
+	max-width: 180px;
+	border-radius: 10px;
+	padding: 10px;
+	padding-bottom: 40px;
+}
+.infos p{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.titulo-integrantes hr{
+	height: 5px;
+	background-color: #6E6ECB;
+}
+.titulo-integrantes h1{
+	text-align: center;
+	color: #6E6ECB;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+.op-gg{
+	margin: auto;
+}
